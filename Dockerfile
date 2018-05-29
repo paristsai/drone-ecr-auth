@@ -1,9 +1,8 @@
-FROM python:2.7-alpine
+FROM python:3.6-alpine3.6
 
-MAINTAINER omer@devops.co.il
+MAINTAINER parisswing@gmail.com
 
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/community" >> /etc/apk/repositories
 RUN pip install awscli
 RUN apk update 
 RUN apk add docker
-
