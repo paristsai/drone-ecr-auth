@@ -1,10 +1,9 @@
 pipeline:
   publish_ecr:
     image: plugins/docker
-    repo: $ECR_DOMAIN/drone-ecr-auth
+    repo: 234232853477.dkr.ecr.ap-southeast-1.amazonaws.com/drone-ecr-auth
     tags: [ "latest" ]
     ecr_region: ap-southeast-1
-    secrets: [ ecr_domain ]
     dockerfile: Dockerfile
     debug: true
     event: push
