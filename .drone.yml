@@ -1,7 +1,7 @@
 pipeline:
   publish_ecr:
     image: plugins/ecr
-    repo: 234232853477.dkr.ecr.ap-southeast-1.amazonaws.com/drone-ecr-auth
+    repo: drone-ecr-auth
     registry: 234232853477.dkr.ecr.ap-southeast-1.amazonaws.com
     tags: [ "latest" ]
     ecr_region: ap-southeast-1
