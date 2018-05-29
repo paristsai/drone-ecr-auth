@@ -8,7 +8,7 @@ ECR requires an AWS authentication process with keys that rotate every 12 hours.
 Run the container as the first build step in Drone 
 Provide the container a role with policy that has premissions for `ecr:*`, or provide keys with the environment variables of the container.
 Use it to pull the build container, which will be available to the build phase.
-Here's a drone pipline example:
+Here's a drone pipline example: 
 
 ```yaml
 pipeline:
