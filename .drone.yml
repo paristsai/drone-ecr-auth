@@ -7,3 +7,4 @@ pipeline:
     dockerfile: Dockerfile
     debug: true
     event: push
+    secrets: [ ecr_access_key, ecr_secret_key ]
