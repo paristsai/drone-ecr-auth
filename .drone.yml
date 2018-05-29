@@ -6,4 +6,4 @@ pipeline:
     dockerfile: Dockerfile
     debug: true
     event: push
-    secrets: [ ecr_region, ecr_access_key, ecr_secret_key ]
+    secrets: [ ecr_region ]
