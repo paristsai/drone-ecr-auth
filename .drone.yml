@@ -4,6 +4,5 @@ pipeline:
     repo: drone-ecr-auth
     tags: [ "latest" ]
     dockerfile: Dockerfile
-    debug: true
     event: push
     secrets: [ ecr_region ]
